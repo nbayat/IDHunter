@@ -12,6 +12,8 @@ This is a simple C program that takes an application name as input and returns t
 ### Or manually
 
 ```bash
+~$ git clone https://github.com/nbayat/IDHunter.git
+~$ cd IDHunter
 ~$ ./install.sh
 ```
 
