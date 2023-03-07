@@ -10,7 +10,7 @@ git clone https://github.com/nbayat/IDHunter.git
 cd IDHunter
 gcc -o ~/.bin/IDHunter src/IDHunter.c
 cd ..
-rm ../IDHunter
+rm IDHunter
 
 # Add the myapp directory to the PATH environment variable
 echo 'export PATH="$HOME/.bin:$PATH"' >> ~/.zshrc
