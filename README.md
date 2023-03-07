@@ -5,26 +5,26 @@ This is a simple C program that takes an application name as input and returns t
 
 # Install
 
-```console
+```bash
 ~$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/nbayat/IDHunter/main/install.sh)"
 ```
 
 ### Or manually
 
-```console
+```bash
 ~$ ./install.sh
 ```
 
 # Usage
 
-```console
+```bash
 ~$ IDHunter code
 Bundle ID for Visual Studio Code.app: com.microsoft.VSCode
 ```
 
 OR
 
-```console
+```bash
 ~$ IDHunter "Prime Video"
 Bundle ID for Prime Video.app: com.amazon.aiv.AIVApp
 ```
