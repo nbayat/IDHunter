@@ -5,7 +5,11 @@ This is a simple C program that takes an application name as input and returns t
 
 # Install
 
-## Manually
+```console
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/nbayat/IDHunter/main/install.sh)"
+```
+
+### Or manually
 
 ```console
 ~$ ./install.sh
