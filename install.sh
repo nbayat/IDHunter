@@ -7,7 +7,8 @@ fi
 
 # Compile the executable file
 if [ ! -d ./src ]; then
-    wait curl -o IDHunter.c https://raw.githubusercontent.com/nbayat/IDHunter/main/src/IDHunter.c
+    curl -o IDHunter.c https://raw.githubusercontent.com/nbayat/IDHunter/main/src/IDHunter.c &
+    pid=$!
     gcc -o ~/.bin/IDHunter ./IDHunter.c
 else
     gcc -o ~/.bin/IDHunter src/IDHunter.c
