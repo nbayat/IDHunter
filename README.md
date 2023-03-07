@@ -6,7 +6,7 @@ This is a simple C program that takes an application name as input and returns t
 # Usage
 
 ```console
-~$ IDHnter code
+~$ IDHunter code
 Bundle ID for Visual Studio Code.app: com.microsoft.VSCodeS
 ```
 
