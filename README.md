@@ -1,5 +1,5 @@
 # IDHunter
-OSX Installed Apps bundle id extractor CLi
+OSX Installed App bundle id extractor CLi
 
 This is a simple C program that takes an application name as input and returns the bundle identifier of the installed application on a Mac OS system.
 
