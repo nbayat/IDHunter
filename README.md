@@ -38,4 +38,4 @@ Written by [Nima Bayat](https://github.com/nbayat)
 
 ## License
 
-This program is released under the [MIT License]
+This program is released under the [MIT License](https://github.com/nbayat/IDHunter/blob/main/LICENSE)
