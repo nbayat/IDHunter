@@ -22,6 +22,15 @@ This is a simple C program that takes an application name as input and returns t
 Bundle ID for Visual Studio Code.app: com.microsoft.VSCode
 ```
 
+OR
+
+```console
+~$ IDHunter "Prime Video"
+Bundle ID for Prime Video.app: com.amazon.aiv.AIVApp
+```
+
+
+
 
 ## Author
 
