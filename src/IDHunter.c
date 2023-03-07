@@ -14,7 +14,8 @@ int main(int argc, char **argv) {
     char bundle_id[MAX_BUF_LEN];
     int i, len, match_found = 0;
 
-    if (argc < 2 || strcmp(argv[1], "-h") == 0 || strcmp(argv[1], "--help") || strcmp(argv[1], "--Help") || strcmp(argv[1], "-H")){
+    if (argc < 2 || strcmp(argv[1], "-h") == 0 || strcmp(argv[1], "--help") == 0 || strcmp(argv[1], "--Help") == 0 || strcmp(argv[1], "-H") == 0)
+    {
         printf("\033[33mUsage:\033[0m %s <app_name>\n", argv[0]);
         return 1;
     }
