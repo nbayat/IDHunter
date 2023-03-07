@@ -34,8 +34,8 @@ int main(int argc, char **argv) {
     }
 
     // Get list of installed applications in /Applications and /System/Applications
-    char *applications_paths[] = { "/Applications", "/System/Applications" };
-    for (i = 0; i < 2; i++) {
+    char *applications_paths[] = { "/Applications", "/System/Applications", "/System/Applications/Utilities" };
+    for (i = 0; i < 3; i++) {
         DIR *dir;
         struct dirent *ent;
         if ((dir = opendir(applications_paths[i])) != NULL) {
